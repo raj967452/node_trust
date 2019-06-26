@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\khemraj.saini\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@3.10.8
+3 info using node@v4.4.7
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle trust-pilot@0.0.0~prestart: trust-pilot@0.0.0
+6 silly lifecycle trust-pilot@0.0.0~prestart: no script for prestart, continuing
+7 info lifecycle trust-pilot@0.0.0~start: trust-pilot@0.0.0
+8 verbose lifecycle trust-pilot@0.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle trust-pilot@0.0.0~start: PATH: C:\Users\khemraj.saini\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;E:\Mozu\myMMS\AppSettings\tpAppConfig\node_modules\.bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\java\jdk1.8_64\jdk1.8.0_45\bin;D:\java\jdk1.8_64\jdk1.8.0_45\jre\bin;D:\app\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseGit\bin;D:\marketlive\apache-ant-1.7.1\bin;D:\marketlive\tools\cs\build;D:\marketlive\mongo\bin;D:\marketlive\tomcat\apache-tomcat-7.0.52\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\OpenVPN\bin;C:\Program Files\Git\bin\git.exe;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\khemraj.saini\AppData\Roaming\npm;C:\Users\khemraj.saini\AppData\Local\GitHubDesktop\bin
+10 verbose lifecycle trust-pilot@0.0.0~start: CWD: E:\Mozu\myMMS\AppSettings\tpAppConfig
+11 silly lifecycle trust-pilot@0.0.0~start: Args: [ '/d /s /c', 'node app.js' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:873:11)
+12 verbose stack     at process.kill (node.js:777:15)
+12 verbose stack     at process.listener (C:\Users\khemraj.saini\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:72:20)
+12 verbose stack     at process.emit (events.js:166:7)
+12 verbose stack     at processEmit (C:\Users\khemraj.saini\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (C:\Users\khemraj.saini\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (node.js:804:46)
+13 verbose cwd E:\Mozu\myMMS\AppSettings\tpAppConfig
+14 error Windows_NT 6.1.7601
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\khemraj.saini\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "start"
+16 error node v4.4.7
+17 error npm  v3.10.8
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]

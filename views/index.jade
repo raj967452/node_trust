@@ -1,0 +1,73 @@
+extends layout
+
+block content
+  div(class="spinner")
+  div(class="container")
+    h1 Mozu TrustPilot Application
+    div(class="tab-holder")
+        ul(class="nav nav-pills nav-stacked")
+          li(class="active")
+            a(href="#tab-information" data-toggle="tab") Information
+          li
+            a(id="configurationTab" href="#tab-configuration" data-toggle="tab") Configuration
+    div(class="content-holder")
+      div(class="tab-content")
+        div(class="tab-pane active" id="tab-information")
+            div(id="paragraph-holder")
+              h3 Mozu TrustPilot Application
+              p Key feature of this application include:
+              ul
+                li Mozu TrustPilot Application configuration
+            div(id="image-holder")
+              img(src="images/logo-white.svg")
+        div(class="tab-pane" id="tab-configuration")
+          form(id="configurationForm")
+            div(class="heading-wrapper bottom")
+              p
+                b Trust Pilot Configuration
+              p Please enter TrustPilot configuration.
+            div(class="alert" role="alert" style="display:none")
+            div(class="row")
+              div(class="col-md-12")
+                label(class="pull-left" for="siteList") Select Site:
+                select(id="siteList" class="tab-field")                    
+              div(class="tab-divider")
+              div(class="col-md-4")
+                label(class="tab-field-label" for="apiKey") API Key:
+                input(type="text" class="tab-field" id="apiKey" name="apiKey" value="")
+                span(class="error_msg")
+              div(class="col-md-4")
+                label(class="tab-field-label" for="secretKey") Secret Key:
+                input(type="text" class="tab-field" id="secretKey" name="secretKey" value="")
+                span(class="error_msg")
+              div(class="col-md-4")
+                label(class="tab-field-label" for="apiUsername") API Username:
+                input(type="text" class="tab-field" id="apiUsername" name="apiUsername" value="")
+                span(class="error_msg")
+              div(class="col-md-4")
+                label(class="tab-field-label" for="apiPassword") API Password:
+                input(type="text" class="tab-field" id="apiPassword" name="apiPassword" value="")
+                span(class="error_msg")
+            div(class="tab-divider")
+            div(class="heading-wrapper bottom")
+              div(style="font-size: 1.2em;")
+                b Trust Pilot other required details
+                P Please setup Trust Pilot Business Id, Template and Return URL
+            div(class="row")
+              div(class="col-md-4")
+                label(class="tab-field-label" for="templateID") Trust Pilot template:
+                input(type="text" class="tab-field" id="templateID" name="templateID" value="")
+                span(class="error_msg")
+              div(class="col-md-4")
+                label(class="tab-field-label" for="buisnessID") Trust Pilot Buisness ID:
+                input(type="text" class="tab-field" id="buisnessID" name="buisnessID" value="")
+                span(class="error_msg")
+              div(class="col-md-4")
+                label(class="tab-field-label" for="redirectionURL") Trust Pilot Redirection URL:
+                input(type="text" class="tab-field" id="redirectionURL" name="redirectionURL" value="")
+                span(class="error_msg")
+            div(class="tab-divider")
+            div
+              button(type="button" id="informationSubmit" title="Please validate your details before saving settings.") Save
+              span(id="submit_response")
+  script(src='javascripts/script.js')

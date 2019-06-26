@@ -1,0 +1,8 @@
+{
+    "t26103": {
+        "clientName": "mymms",
+        "appKey": "MyMMs.ArcActionsDev.1.0.0.Release",
+        "sharedSecret": "dd72835f1eb64b96bb97cd7de71152e4",
+        "entityListName": "tpconfiguration"
+    }    
+}

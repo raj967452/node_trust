@@ -1,0 +1,27 @@
+{
+  "name": "trust-pilot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "^2.6.1",
+    "error-handler": "^0.1.4",
+    "express": "~4.16.0",
+    "express-error-handler": "^1.1.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "js2xmlparser": "^3.0.0",
+    "lodash": "^4.17.5",
+    "log4js": "^2.4.1",
+    "method-override": "^1.0.0",
+    "morgan": "~1.9.0",
+    "mozu-node-sdk": "^2.13.1",
+    "request": "^2.88.0"
+  }
+}
